@@ -20,7 +20,7 @@
     "auto": true
   },
   "format": {
-    "date": "Y-m-dT H:i:s"
+    "date": "Y-m-d H:i:s"
   },
   "updatecheck": false
 }
