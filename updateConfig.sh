@@ -37,8 +37,8 @@ for e in "${!APACHE_@}"; do
 	fi
 done
 
-sed -i "s/##MEMCACHED_USERNAME##/$MEMCACHED_USERNAME/g" /var/www/app/.config
-sed -i "s/##MEMCACHED_PASSWORD##/$MEMCACHED_PASSWORD/g" /var/www/app/.config
+sed -i "s/##MEMADMIN_USERNAME##/$MEMADMIN_USERNAME/g" /var/www/app/.config
+sed -i "s/##MEMADMIN_PASSWORD##/$MEMADMIN_PASSWORD/g" /var/www/app/.config
 sed -i "s/##MEMCACHED_HOST##/$MEMCACHED_HOST/g" /var/www/app/.config
 sed -i "s/##MEMCACHED_PORT##/$MEMCACHED_PORT/g" /var/www/app/.config
 

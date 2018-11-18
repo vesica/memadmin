@@ -1,6 +1,6 @@
 {
-  "username": "##MEMCACHED_USERNAME##",
-  "password": "##MEMCACHED_PASSWORD##",
+  "username": "##MEMADMIN_USERNAME##",
+  "password": "##MEMADMIN_PASSWORD##",
   "timeout": -1,
   "cluster": {
     "name": "Memcached",
