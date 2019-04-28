@@ -1,5 +1,5 @@
 # Base image
-FROM vesica/php72:latest
+FROM quay.io/vesica/php72:latest
 
 ENV MEMADMIN_USERNAME "vesica"
 ENV MEMADMIN_PASSWORD "vesica"
